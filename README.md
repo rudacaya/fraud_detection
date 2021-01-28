@@ -4,7 +4,7 @@
 - Can a GAN learn from examples to create realistic instances of fraud?
 - Can a GAN do better than SMOTE?
 
-Credit card fraud detection with an extremely imbalanced dataset was implemented. GAN and SMOTE were implemented to create synthetic samples. Then we saw if the performance of three models was improved. The models were: logistic regression, random forest and gradient boosting. The GAN created instances are realist, but the characteristics taken were pretty general, and the model didn't improve its performance. SMOTE appears to have a better performance.
+Credit card fraud detection with an extremely imbalanced dataset was implemented. GAN and SMOTE were used to create synthetic samples to check if the performance of three models can be improved. The models were: logistic regression, random forest and gradient boosting. The GAN created realistic instances, but did not extract useful information from the fraud examples and the model didn't improve its performance. SMOTE had a better performance.
 
 
 ## Main Files
